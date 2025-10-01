@@ -1,0 +1,17 @@
+{
+  "name": "weather-forcast-app",
+  "version": "1.0.0",
+  "description": "Main runner for the weather app",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix weather-app-backend",
+    "client": "npm run dev --prefix weather-app-frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

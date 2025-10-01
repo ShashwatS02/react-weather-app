@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sun -->
+    <circle cx="128" cy="128" r="60" fill="url(#sun_gradient)"/>
+    <defs>
+        <radialGradient id="sun_gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128 128) rotate(90) scale(60)">
+            <stop stop-color="#FFD700"/> <!-- Gold -->
+            <stop offset="1" stop-color="#FFA500"/> <!-- Orange -->
+        </radialGradient>
+    </defs>
+
+    <!-- Cloud -->
+    <path d="M73.5 186C52.3416 186 35 168.658 35 147.5C35 127.203 50.4731 110.575 70.1875 109.562C75.25 81.25 100.562 60 130.5 60C163.635 60 191 87.3655 191 120.5C214.218 120.5 233 139.282 233 162.5C233 185.718 214.218 204.5 191 204.5L93 204.5" fill="url(#cloud_gradient)"/>
+    <defs>
+        <linearGradient id="cloud_gradient" x1="73.5" y1="60" x2="233" y2="204.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white"/>
+            <stop offset="1" stop-color="#E0E0E0"/>
+        </linearGradient>
+    </defs>
+</svg>

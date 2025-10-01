@@ -1,0 +1,59 @@
+# Dependencies
+/node_modules
+/weather-app-frontend/node_modules
+
+# Vite build output
+/weather-app-frontend/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables - IMPORTANT!
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.DS_Store
+.vscode/
+```
+
+This is the most critical step for security and for keeping your repository clean.
+
+#### Step 4: Add and Commit Your Files
+
+These commands stage all your files (except the ignored ones) and save a snapshot of them in Git's history.
+
+1.  **Add all files:**
+    ```bash
+    git add .
+    ```
+
+2.  **Commit the files:**
+    ```bash
+    git commit -m "Initial commit: Add weather app project files"
+    ```
+
+#### Step 5: Connect Your Local Repo to GitHub
+
+This is where you tell your local project where its "home" on the internet is.
+
+1.  Go back to the GitHub repository page you created in Step 1.
+2.  Copy the URL from the section titled "...or push an existing repository from the command line". It will look like `https://github.com/your-username/your-repo-name.git`.
+    
+3.  Run the following commands in your terminal, making sure to rename the local branch to `main` to match GitHub's standard:
+
+    ```bash
+    git branch -M main
+    git remote add origin YOUR_REPOSITORY_URL_HERE.git
+    ```
+    (Replace `YOUR_REPOSITORY_URL_HERE.git` with the URL you just copied).
+
+#### Step 6: Push Your Code!
+
+This is the final step. It uploads your committed files to your GitHub repository.
+
+```bash
+git push -u origin main
