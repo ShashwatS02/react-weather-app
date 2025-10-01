@@ -14,6 +14,12 @@ It provides **live weather data**, a **5-day forecast**, and features a **dynami
 
 ---
 
+## 📸 Preview
+
+![Weatherly App Screenshot](./screenshots/Screenshot%202025-10-02%20024558.png)
+
+---
+
 ## ✨ Features
 
 - 🌍 **Live Weather Data** – Get up-to-the-minute weather information for any city worldwide.  
