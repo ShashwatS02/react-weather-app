@@ -16,7 +16,7 @@ It provides **live weather data**, a **5-day forecast**, and features a **dynami
 
 ## 📸 Preview
 
-![Weatherly App Screenshot](screenshots/Screenshot 2025-10-02 024558.png)
+[![Weatherly App Screenshot]](screenshots/Screenshot 2025-10-02 024558.png)
 
 ---
 
